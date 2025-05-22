@@ -1,0 +1,58 @@
+<svg viewBox="0 0 800 300" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect x="0" y="0" width="800" height="300" fill="#f5f5f5" />
+  
+  <!-- Boxes -->
+  <rect x="80" y="30" width="150" height="40" rx="2" ry="2" fill="white" stroke="black" stroke-width="1.5" />
+  <rect x="80" y="140" width="150" height="40" rx="2" ry="2" fill="white" stroke="black" stroke-width="1.5" />
+  <rect x="80" y="240" width="150" height="40" rx="2" ry="2" fill="white" stroke="black" stroke-width="1.5" />
+  <rect x="320" y="140" width="150" height="40" rx="2" ry="2" fill="white" stroke="black" stroke-width="1.5" />
+  <rect x="320" y="240" width="150" height="40" rx="2" ry="2" fill="white" stroke="black" stroke-width="1.5" />
+  <rect x="560" y="140" width="150" height="40" rx="2" ry="2" fill="white" stroke="black" stroke-width="1.5" />
+  <rect x="560" y="240" width="150" height="40" rx="2" ry="2" fill="white" stroke="black" stroke-width="1.5" />
+  
+  <!-- Text -->
+  <text x="155" y="55" text-anchor="middle" font-family="Arial" font-size="14">Дасгалын төлөвлөгөө</text>
+  <text x="155" y="165" text-anchor="middle" font-family="Arial" font-size="14">Хэрэглэгчийн бүртгэл</text>
+  <text x="155" y="265" text-anchor="middle" font-family="Arial" font-size="14">Зорилго тогтоох</text>
+  <text x="395" y="165" text-anchor="middle" font-family="Arial" font-size="14">Дасгал</text>
+  <text x="395" y="265" text-anchor="middle" font-family="Arial" font-size="14">Үйл ажиллагааны бүртгэл</text>
+  <text x="635" y="165" text-anchor="middle" font-family="Arial" font-size="14">Хоолны бүртгэл</text>
+  <text x="635" y="265" text-anchor="middle" font-family="Arial" font-size="14">Дүн шинжилгээ</text>
+  
+  <!-- Arrows -->
+  <!-- Дасгалын төлөвлөгөө <-> Хэрэглэгчийн бүртгэл -->
+  <line x1="155" y1="70" x2="155" y2="140" stroke="black" stroke-width="1.5" />
+  <polygon points="155,80 150,90 160,90" fill="black" />
+  <polygon points="155,130 150,120 160,120" fill="black" />
+  
+  <!-- Хэрэглэгчийн бүртгэл -> Хэрэглэгчийн бүртгэл (self) -->
+  <path d="M 80 160 C 50 160 50 160 50 180 L 50 200 C 50 220 50 220 80 220" fill="none" stroke="black" stroke-width="1.5" />
+  <polygon points="70,220 80,215 80,225" fill="black" />
+  
+  <!-- Зорилго тогтоох -> Хэрэглэгчийн бүртгэл -->
+  <line x1="155" y1="240" x2="155" y2="180" stroke="black" stroke-width="1.5" />
+  <polygon points="155,190 150,180 160,180" fill="black" />
+  
+  <!-- Хэрэглэгчийн бүртгэл <-> Дасгал -->
+  <line x1="230" y1="160" x2="320" y2="160" stroke="black" stroke-width="1.5" />
+  <polygon points="240,160 250,155 250,165" fill="black" />
+  <polygon points="310,160 300,155 300,165" fill="black" />
+  
+  <!-- Дасгал -> Үйл ажиллагааны бүртгэл -->
+  <line x1="395" y1="180" x2="395" y2="240" stroke="black" stroke-width="1.5" />
+  <polygon points="395,230 390,220 400,220" fill="black" />
+  
+  <!-- Дасгал <-> Хоолны бүртгэл -->
+  <line x1="470" y1="160" x2="560" y2="160" stroke="black" stroke-width="1.5" />
+  <polygon points="480,160 490,155 490,165" fill="black" />
+  <polygon points="550,160 540,155 540,165" fill="black" />
+  
+  <!-- Хоолны бүртгэл -> Дүн шинжилгээ -->
+  <path d="M 635 180 C 635 200 635 200 635 240" fill="none" stroke="black" stroke-width="1.5" />
+  <polygon points="635,230 630,220 640,220" fill="black" />
+  
+  <!-- Дүн шинжилгээ -> Хэрэглэгчийн бүртгэл -->
+  <path d="M 560 260 C 310 260 310 260 230 180" fill="none" stroke="black" stroke-width="1.5" />
+  <polygon points="240,187 230,180 237,173" fill="black" />
+</svg>
